@@ -1,0 +1,24 @@
+@import '../../scss/partials/global-vars';
+
+.arl-service-ratings {  
+    
+    font-size: $base * .95;
+
+    .arl-service-rating-icon {
+        color: $clr-accent-orange;
+        font-size: $base * 1.2;
+        margin-right: $base * .2;
+        margin-bottom: $base * .2;
+    }
+
+    .arl-service-rating-count {
+        margin-right: $base * .5;
+        font-weight: $fw-b;
+    }
+
+    .arl-service-rating-review-count {
+        color: lighten( $clr-dark, 30% );
+        font-size: $base * .85;
+    }
+
+}

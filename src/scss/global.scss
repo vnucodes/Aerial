@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+// vars
+@import './partials/global-vars';
+
+html,
+body {
+    font-family: $ff;
+    font-weight: $fw-r;
+    font-size: $base;
+    line-height: 1.8;
+    background-color: lighten( $clr-accent-green, 45% );
+}

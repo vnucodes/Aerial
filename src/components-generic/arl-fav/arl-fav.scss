@@ -1,0 +1,14 @@
+@import '../../scss/partials/global-vars';
+
+.arl-fav {
+
+    background-color: lighten( $clr-accent-orange, 50% );
+    line-height: .5;
+
+    span {
+        font-size: $base * 1.5;
+        line-height: 1;
+        color: lighten( $clr-accent-orange, 20% );
+    }
+    
+}

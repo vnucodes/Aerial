@@ -1,0 +1,13 @@
+@import '../../scss/partials/global-vars';
+
+.arl-service {
+
+    background-color: transparent;
+    padding-top: $base * 1.85;
+    padding-bottom: $base * 1.85;
+    
+    &:not(first-child) {
+        border: 1px solid darken( $clr-light, 5% );;
+    }
+    
+}

@@ -1,0 +1,18 @@
+@import '../../scss/partials/global-vars';
+
+.arl-service-title {
+    
+    small {
+        color: $clr-dark;
+        font-weight: $fw-l;
+        font-size: $base * .85;
+        color: lighten( $clr-dark, 30% );
+        text-transform: capitalize;
+        margin-bottom: $base * .25;
+    }
+
+    font-weight: $fw-b;
+    color: $clr-dark;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}

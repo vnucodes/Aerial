@@ -1,0 +1,14 @@
+@import '../../scss/partials/global-vars';
+
+button.arl-tag {
+    display: inline-block;
+    position: relative;
+    margin-right: $base * .5;
+    margin-bottom: $base * .5;
+    padding: $base * .15 $base * .5;
+    background-color: lighten($clr-accent-green, 60%);
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border: 1px solid lighten($clr-accent-green, 30%);
+    color: lighten($clr-accent-green, 0%);
+}

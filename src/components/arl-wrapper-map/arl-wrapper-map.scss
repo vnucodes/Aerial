@@ -1,0 +1,10 @@
+@import '../../scss/partials/global-vars';
+
+#wrapper-map {
+
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: darken( $clr-light, 10% ); 
+}
