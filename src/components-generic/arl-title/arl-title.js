@@ -1,6 +1,6 @@
-import './arl-service-title.scss'
+import './arl-title.scss'
 
-function ArlServiceTitle ({title, type}) {
+function ArlTitle ({title, type}) {
 
     return (
         <h2 className="h5 arl-service-title">
@@ -10,4 +10,4 @@ function ArlServiceTitle ({title, type}) {
     )
 }
 
-export default ArlServiceTitle;
+export default ArlTitle;

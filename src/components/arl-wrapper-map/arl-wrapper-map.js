@@ -22,7 +22,7 @@ function ArlWrapperMap (props) {
             });
         }
 
-        loadMap()
+        //loadMap()
 
     }, [])
     
